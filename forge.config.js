@@ -6,7 +6,7 @@ export default {
     asar: true,
     arch: ['x64', 'arm64'], // Build for x64 and arm64
     platform: ['win32', 'darwin', 'linux'], // Build for Windows, macOS, and Linux
-    executableName: 'AnimationCreator',
+    executableName: 'animationcreator',
     authors: 'Maxim Van de Wynckel <maxim@mvdw-software.com>',
   },
   rebuildConfig: {},
