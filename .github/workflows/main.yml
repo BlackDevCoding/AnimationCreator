@@ -56,7 +56,7 @@ jobs:
       - name: Create/Update Release and Upload Assets
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: ${{ github.ref_name }}     # the tag that triggered this workflow
+          tag_name: ${{ github.ref_name }}     # the tag that triggered this workflows
           name: ${{ github.ref_name }}
           body: "Automated release for ${{ github.ref_name }}"
           draft: false
