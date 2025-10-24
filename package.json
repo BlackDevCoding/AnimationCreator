@@ -4,6 +4,7 @@
   "description": "Create animations with ease",
   "main": "main.cjs",
   "type": "module",
+  "productName": "AnimationCreator",
   "scripts": {
     "start": "electron-forge start",
     "package": "electron-forge package",
